@@ -1,0 +1,256 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "b7df22ed-bb56-4748-ad75-bf8ca0828870",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "46162719-a2d5-4676-8ab8-e163a1053792",
+    "childId": "b7df22ed-bb56-4748-ad75-bf8ca0828870"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "35a5ffa5-b593-449c-b7e0-64fc4ffa71eb",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "data": [],
+          "xAxis": {
+            "show": true,
+            "key": "x"
+          },
+          "yAxis": {
+            "show": true
+          },
+          "toolTip": {
+            "show": true
+          },
+          "legend": {
+            "show": true
+          },
+          "chartHeight": 400,
+          "chartWidth": 400
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "46162719-a2d5-4676-8ab8-e163a1053792",
+    "childId": "35a5ffa5-b593-449c-b7e0-64fc4ffa71eb"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "df557f2e-b636-4c7b-9c02-728ae3b33c66",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "d670618d-f284-46cb-8a0c-489f2eddbc0e",
+    "childId": "df557f2e-b636-4c7b-9c02-728ae3b33c66"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "1cc8efb1-afdf-4647-934f-7a797c55d62b",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "alt": "No preview available"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "d670618d-f284-46cb-8a0c-489f2eddbc0e",
+    "childId": "1cc8efb1-afdf-4647-934f-7a797c55d62b"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "a42a480f-fb7a-4276-8146-9b335d2b522c",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "7185989f-51fa-4c7b-aad1-1a830e72f0e6",
+    "childId": "a42a480f-fb7a-4276-8146-9b335d2b522c"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "1b7b8c95-cf64-4f9e-ad29-7d250076955e",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "items": [],
+          "startTile": 0,
+          "imageItems": []
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "7185989f-51fa-4c7b-aad1-1a830e72f0e6",
+    "childId": "1b7b8c95-cf64-4f9e-ad29-7d250076955e"
+  },
+  {
+    "id": "e6f1c2de-758c-42a5-9f90-f6487da8c8e8",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "46162719-a2d5-4676-8ab8-e163a1053792",
+    "childId": "e6f1c2de-758c-42a5-9f90-f6487da8c8e8"
+  },
+  {
+    "id": "8e5f7743-2301-45b2-9e4f-e775171f4f19",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "d670618d-f284-46cb-8a0c-489f2eddbc0e",
+    "childId": "8e5f7743-2301-45b2-9e4f-e775171f4f19"
+  },
+  {
+    "id": "0715507a-724c-4602-94c0-664e08a34abf",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "7185989f-51fa-4c7b-aad1-1a830e72f0e6",
+    "childId": "0715507a-724c-4602-94c0-664e08a34abf"
+  },
+  {
+    "id": "46162719-a2d5-4676-8ab8-e163a1053792",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "AreaChart",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "body",
+        "index": 4
+      },
+      "alias": "AreaChart1"
+    }
+  },
+  {
+    "id": "d670618d-f284-46cb-8a0c-489f2eddbc0e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Image",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "body",
+        "index": 2
+      },
+      "alias": "Image1"
+    }
+  },
+  {
+    "id": "7185989f-51fa-4c7b-aad1-1a830e72f0e6",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Carousel",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "body",
+        "index": 1
+      },
+      "alias": "Carousel1"
+    }
+  }
+]

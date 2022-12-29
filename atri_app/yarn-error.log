@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Users\MAYUR\.atri\webapp-builder-win.exe.v0.0.78 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\MAYUR\Downloads\Atri\AtriP\Scripts;C:\Users\MAYUR\Downloads\Atri\AtriP\Scripts;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Android;C:\Windows\System32;C:\ProgramData\chocolatey\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\Java\jdk-17.0.2\bin;"C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\";C:\Program Files\dotnet\;C:\TDM-GCC-32\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\xampp\php;C:\composer;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\MAYUR\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\MAYUR\AppData\Local\Programs\Python\Python38\;C:\Users\MAYUR\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MAYUR\AppData\Local\Programs\Python\Python37\;C:\Users\MAYUR\anaconda3;C:\Users\MAYUR\anaconda3\Library\mingw-w64\bin;C:\Users\MAYUR\anaconda3\Library\usr\bin;C:\Users\MAYUR\anaconda3\Library\bin;C:\Users\MAYUR\anaconda3\Scripts;C:\Users\MAYUR\AppData\Local\Microsoft\WindowsApps;C:\Users\MAYUR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\bin;C:\Users\MAYUR\src\flutter\bin;B:\SRC\flutter\bin;D:\SY\ER\sqldeveloper-21.4.2.018.1706-x64\sqldeveloper\jdbc\lib;C:\Program Files\Java\jdk-17.0.2\lib;C:\Program Files\heroku\bin;C:\Users\MAYUR\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\6.0\bin\;C:\Users\MAYUR\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\MAYUR\AppData\Local\Yarn\Cache\v6\npm-@babel-plugin-syntax-json-strings-7.8.3-01ca21b668cd8218c9e640cb6dd88c5412b2c96a-integrity\node_modules\@babel\plugin-syntax-json-strings\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.78",
+      "@atrilabs/core": "^0.0.78",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.78"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
